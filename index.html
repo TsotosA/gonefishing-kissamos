@@ -1060,7 +1060,7 @@
         try {
             document.getElementById(id).textContent = text;
         } catch (error) {
-            console.error(`findElementByIdAndReplaceText(${id}, ${text}) \n ${error}`)
+            console.info(`findElementByIdAndReplaceText(${id}, ${text}) \n ${error}`)
         }
     }
 
@@ -1105,7 +1105,7 @@
 
 </script>
 <script type="module">
-    import PhotoSwipeLightbox from 'assets/js/PhotoSwipe-5.4.4/dist/photoswipe-lightbox.esm.js';
+    import PhotoSwipeLightbox from '/assets/js/PhotoSwipe-5.4.4/dist/photoswipe-lightbox.esm.js';
 
     const lightbox = new PhotoSwipeLightbox({
         gallery: '#gallery-album',
