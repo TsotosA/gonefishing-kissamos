@@ -982,9 +982,9 @@
 
 <!-- ====== All Scripts -->
 <script src="assets/js/wow.min.js"></script>
-<script>
-    new WOW().init();
-</script>
+<script src="assets/js/PhotoSwipe-5.4.4/dist/photoswipe-lightbox.esm.js" type="application/javascript"></script>
+<script src="assets/js/PhotoSwipe-5.4.4/dist/photoswipe.esm.js"></script>
+<script> new WOW().init(); </script>
 <script src="assets/js/main.js"></script>
 <script>
     // ==== for menu scroll
@@ -1105,12 +1105,11 @@
 
 </script>
 <script type="module">
-    import PhotoSwipeLightbox from '/assets/js/PhotoSwipe-5.4.4/dist/photoswipe-lightbox.esm.js';
 
     const lightbox = new PhotoSwipeLightbox({
         gallery: '#gallery-album',
         children: 'a',
-        pswpModule: () => import('/assets/js/PhotoSwipe-5.4.4/dist/photoswipe.esm.js'),
+        pswpModule: () => import('assets/js/PhotoSwipe-5.4.4/dist/photoswipe.esm.js'),
     });
     lightbox.init();
 </script>
