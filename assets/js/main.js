@@ -14,11 +14,11 @@
     }
 
     // === logo change
-    if (ud_header.classList.contains("sticky") && !logo.src.endsWith("assets/images/logo/logo-letsgofishing.svg")) {
-      logo.src = "assets/images/logo/logo-letsgofishing.svg";
+    if (ud_header.classList.contains("sticky") && !logo.src.endsWith("assets/images/logo/noBgColor.png")) {
+      logo.src = "assets/images/logo/noBgColor.png";
     } else {
-      if (!logo.src.endsWith("assets/images/logo/logo-letsgofishing.svg")) {
-        logo.src = "assets/images/logo/logo-letsgofishing.svg";
+      if (!logo.src.endsWith("assets/images/logo/noBgColor.png")) {
+        logo.src = "assets/images/logo/noBgColor.png";
       }
     }
 
