@@ -705,14 +705,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
-.mb-\[60px\]{
-  margin-bottom: 60px;
-}
-
-.mb-4{
-  margin-bottom: 1rem;
-}
-
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -765,12 +757,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: auto;
 }
 
-.h-\[800px\]{
-  height: 800px;
-}
-
 .h-1\/2{
   height: 50%;
+}
+
+.h-\[600px\]{
+  height: 600px;
 }
 
 .w-full{
@@ -831,10 +823,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-\[845px\]{
   max-width: 845px;
-}
-
-.max-w-\[620px\]{
-  max-width: 620px;
 }
 
 .-translate-y-1\/2{
@@ -1111,8 +1099,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 5rem;
 }
 
-.pb-12{
-  padding-bottom: 3rem;
+.pt-0{
+  padding-top: 0px;
+}
+
+.pb-0{
+  padding-bottom: 0px;
 }
 
 .pt-16{
@@ -1538,11 +1530,6 @@ body {
     line-height: 1.75rem;
   }
 
-  .sm\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .sm\:leading-snug{
     line-height: 1.375;
   }
@@ -1614,10 +1601,6 @@ body {
     line-height: 1.75rem;
   }
 
-  .md\:text-\[42px\]{
-    font-size: 42px;
-  }
-
   .md\:text-\[26px\]{
     font-size: 26px;
   }
@@ -1670,10 +1653,6 @@ body {
 
   .lg\:ml-auto{
     margin-left: auto;
-  }
-
-  .lg\:mb-20{
-    margin-bottom: 5rem;
   }
 
   .lg\:mb-\[150px\]{
@@ -1827,10 +1806,6 @@ body {
 
   .lg\:pb-\[120px\]{
     padding-bottom: 120px;
-  }
-
-  .lg\:pb-\[90px\]{
-    padding-bottom: 90px;
   }
 
   .lg\:text-\[40px\]{
